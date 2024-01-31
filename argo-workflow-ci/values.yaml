@@ -12,11 +12,6 @@ github:
   owner: aravindgo
   # the list of repositories to build on push events
   repositories:
-    python-docs-hello-world:
-      values: python-hello-world-values.yaml
-      branches:
-        master: "python-docs-hello-world"
-    baseline-react-app:
     baseline-vue-app:
       values: baseline-vue-values.yaml
       branches:
